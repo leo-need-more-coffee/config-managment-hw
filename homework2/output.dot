@@ -1,0 +1,10 @@
+digraph G {
+    "axios" -> "follow-redirects";
+    "axios" -> "proxy-from-env";
+    "axios" -> "form-data";
+    "form-data" -> "combined-stream";
+    "form-data" -> "asynckit";
+    "form-data" -> "mime-types";
+    "combined-stream" -> "delayed-stream";
+    "mime-types" -> "mime-db";
+}

@@ -1,0 +1,7 @@
+=begin
+Это многострочный
+комментарий
+=cut
+name := 'TestName'
+values := { 10. 20. 30 }
+output : #[name]
